@@ -10,12 +10,20 @@ const br = document.createElement('br');
 
 //  for
 
-for(let i = 0; i < food.length; i++){
-    output.innerHTML += food[i];
-    output.append(br);
-    console.log(food[i]);
-}
+// for(let i = 0; i < food.length; i++){
+//     output.innerHTML += food[i];
+//     output.append(br);
+//     console.log(food[i]);
+// }
 
+// while
+let c = 0;
+
+while(c < food.length){
+    output.innerHTML += food[c];
+    output.append(br);
+    c++;
+}
 
 
 
